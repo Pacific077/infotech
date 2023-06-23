@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/infotech/static/css/main.eaeacc2a.css",
+    "main.js": "/infotech/static/js/main.c54a619a.js",
+    "static/media/processors.jpg": "/infotech/static/media/processors.023464b2cd67e07be787.jpg",
+    "static/media/—Pngtree—hacker with computer png element_5389008.png": "/infotech/static/media/—Pngtree—hacker with computer png element_5389008.2d0e2b45bf4b21530ae9.png",
+    "index.html": "/infotech/index.html",
+    "main.eaeacc2a.css.map": "/infotech/static/css/main.eaeacc2a.css.map",
+    "main.c54a619a.js.map": "/infotech/static/js/main.c54a619a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.eaeacc2a.css",
+    "static/js/main.c54a619a.js"
+  ]
+}
