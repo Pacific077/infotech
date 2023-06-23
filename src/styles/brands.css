@@ -1,0 +1,45 @@
+@keyframes updown {
+    to{
+        transform: translateY(10px);
+    }
+}
+html {
+    scroll-behavior: smooth;
+  }
+.animgoogle{
+    animation: updown 0.5s linear infinite alternate;
+    animation-delay: 0.7s;
+}
+.animamazon{
+    animation: updown 0.5s linear infinite alternate;
+    animation-delay: 0.5s;
+}
+.animyt{
+    animation: updown 0.5s linear infinite alternate;
+    animation-delay: 0.3s;
+    
+}
+.animinsta{
+    animation: updown 0.5s linear infinite alternate;
+    animation-delay: 0.1s;
+}
+
+.brands{
+    height: 100px;
+    width: 100px;
+    display: flex;
+    border-radius: 100%;
+    flex-direction: column;
+    background-color:white;
+    justify-content: center;
+    text-align: center;
+    padding: 0px;
+}
+.brands:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+} 
+.brands p{
+    margin: 0px;
+}
