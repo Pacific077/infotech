@@ -1,0 +1,47 @@
+.contact{
+    background-color: white;
+    color: #000000;
+    height: 500px;
+    width: 800px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius:0% 25% 25% 0% / 0% 35% 35% 0% ;
+}
+.contact h1{
+    width: 160px;
+    margin: auto;
+    padding-top: 20px;
+}
+
+.form{
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    /* justify-content: center */
+}
+
+.form label{
+    margin-right: 40px;
+}
+.form input{
+    width: 250px;
+    height: 23px;
+}
+.submit{
+    font-weight: bolder;
+    background-color: black;
+    height: 35px !important;
+    border-radius: 20px;
+    color: white;
+    width: 120px !important;
+    cursor: pointer;
+}
+
+.submit:hover{
+    background-color: aquamarine;
+    color: #000000;
+    transition: 0.3s ease;
+    transform: scale(1.05);
+}

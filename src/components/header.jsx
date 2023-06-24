@@ -9,7 +9,7 @@ import "../styles/header.css"
                 <Link className="noline" to={"/"}>Home</Link>
                 <Link className="noline" to={"/contact"}>Contact</Link>
                 <a className="noline" href="/#about">About</a>
-                <Link className="noline" to={"/#brands"}>Brands</Link>
+                <a className="noline" href="/#brands">Brands</a>
                 <Link className="noline" to={"/services"}>Services</Link>
             </nav>
         </div>

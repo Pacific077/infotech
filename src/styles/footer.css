@@ -1,0 +1,22 @@
+.footer{
+    background-color: white;
+    color: black;
+    margin-top: 150px;
+    /* margin-left: 100px; */
+    padding: 20px;
+    padding-right: 100px;
+    padding-left: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer p{
+    /* margin: 14px; */
+    display: inline;
+}
+.footer div{
+    margin:10px;
+}
+.disp{
+    margin-right: 14px;
+    display: inline;
+}

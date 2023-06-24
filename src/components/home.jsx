@@ -8,7 +8,7 @@ import Array from "../brandArray.jsx";
 
 // map function
 const brandmapfun = (temp)=>{
-  return <Brands className={temp.className} brand={temp.name} icon={temp.Bname}/>;
+  return <Brands  className={temp.className} brand={temp.name} icon={temp.Bname}/>;
 };
 
 const Home = () => {
@@ -46,7 +46,7 @@ const Home = () => {
           accusamus eveniet facilis libero corporis aliquid!
         </p>
       </div>
-      <div className="home3"> 
+      <div className="home3" id="brands"> 
       <h3> Brands</h3>
        <div className="inbrand">
         {Array.map(brandmapfun)};
